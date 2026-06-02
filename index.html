@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator in JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculator in JS</h1>
+    <div class="calculatorBody">
+        <input type="text" name="" id="textBar">
+    <div class="keys">
+        <button class="key op" id="multiply" onclick="textAppend(' * ')">*</button>
+        <button class="key op" id="divide" onclick="textAppend(' / ')">/</button>
+        <button class="key op" id="subtract" onclick="textAppend(' - ')">-</button>
+        <button class="key op" id="add" onclick="textAppend(' + ')">+  </button>
+        <button class="key" id="num_9" onclick="textAppend(9)">9</button>
+        <button class="key" id="num_8" onclick="textAppend(8)">8</button>
+        <button class="key" id="num_7" onclick="textAppend(7)">7</button>
+        <button class="key" id="num_6" onclick="textAppend(6)">6</button>
+        <button class="key" id="num_5" onclick="textAppend(5)">5</button>
+        <button class="key" id="num_4" onclick="textAppend(4)">4</button>
+        <button class="key" id="num_3" onclick="textAppend(3)">3</button>
+        <button class="key" id="num_2" onclick="textAppend(2)">2</button>
+        <button class="key" id="num_1" onclick="textAppend(1)">1</button>
+        <button class="key" id="num_0" onclick="textAppend(0)">0</button>
+        <button class="key" id="decimal" onclick="textAppend('.')">.</button>
+        <button class="key" id="equal" onclick="equal()">=</button>
+        <button class="key" id="clear" onclick="clearText()">C</button>
+        <script src="index.js"></script>
+    </div>
+    </div>
+</body>
+</html>
