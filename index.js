@@ -14,7 +14,7 @@ function clearText() {
 
 function compute() {
     try {
-        return eval(textBar.value);
+        return (eval(textBar.value).toFixed(2));
     }
     catch {
         return "Error"
